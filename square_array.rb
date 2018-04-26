@@ -1,3 +1,4 @@
+=begin
 require "pry"
 def square_array(array)
   new_array = []
@@ -6,6 +7,7 @@ def square_array(array)
   end
   return new_array  # your code here
 end
+=end
 
 def square_array(array)
   array.each do |element|
